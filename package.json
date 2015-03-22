@@ -1,0 +1,28 @@
+{
+  "name": "phuturepedia",
+  "description": "phuturepedia",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jquery2": "latest",
+    "lodash": "^3.3.0",
+    "stylus": "latest"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "coffee-script": "^1.9.1",
+    "coffeegulp": "0.0.7",
+    "concat-stream": "^1.4.7",
+    "gulp": "latest",
+    "gulp-browserify": "latest",
+    "gulp-coffee": "latest",
+    "gulp-livereload": "latest",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "latest",
+    "gulp-watch": "latest",
+    "gutil": "latest"
+  },
+  "scripts": {
+    "run": "node_modules\\.bin\\coffeegulp.cmd"
+  }
+}
